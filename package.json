@@ -1,0 +1,24 @@
+{
+  "name": "264-spring23-hw6-markmitri",
+  "version": "1.0.0",
+  "description": "The project will bring together a number of different topics we have covered in class and provide additional implementation experience.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CSE-264-SPRING23/264-spring23-hw6-markmitri.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CSE-264-SPRING23/264-spring23-hw6-markmitri/issues"
+  },
+  "homepage": "https://github.com/CSE-264-SPRING23/264-spring23-hw6-markmitri#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}

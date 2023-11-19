@@ -1,0 +1,27 @@
+#container{
+    display: flex;
+}
+
+#wordSearchTable{
+    margin-right: 20px;
+}
+  
+#rightBoard{
+    width: 200px;
+}
+
+#leaderboard, #chatbox{
+    border-style: solid;
+    border-width: 1px;
+    overflow-y: auto;
+    height: 300px;
+}
+
+#chatbox{
+    border-style: solid;
+    border-width: 1px;
+}
+
+.selected {
+    outline: 2px solid black;
+}

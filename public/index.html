@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Word Search Game</title><input type="text" id="username"><input type="submit" value="Send Username" id="sendUsername"><br>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <p id="wordSearchTopic"></p>
+  <div id="container">
+    <table id="wordSearchTable">
+
+    </table>
+    <div id="rightBoard">
+      <button id="sendWord">Send Word</button>
+      <p>Leaderboard</p>
+      <div id="leaderboard">
+
+      </div><br>
+      <div id="chatbox">
+        <div class="input-container">
+          <input type="text" id="messageBox">
+          <input type="submit" value="Send Message" id="sendMessage"/>
+        </div>
+        <div id="chatMessages"></div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
